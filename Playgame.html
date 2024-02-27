@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel</title>
+    <!-- Fonts -->
+    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Playgame.css">
+ 
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark   p-2">
+    <div class="container-fluid ">
+
+        <img class="logo__img " fetchpriority="high" height="32" alt="Unreal Engine Logo" src="https://media.graphassets.com/qiFQiyH6TiuMdOIA5yZJ" width="233">
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto  mb-lg-0">
+                <li class="nav-item">
+                   <a class="nav-link" style="color:white;" aria-current="page" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white;" href="#">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white;" href="#">Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white;" href="#">More</a>
+                </li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass m-3" style="color: white;"></i>
+      
+            <i class="fa-solid fa-globe m-3" style="color: white;"></i>
+       
+            <i class="fa-regular fa-address-book m-3" style="color: white;"></i>
+            <button type="button"   class="btn btn-primary">Download</button>
+        </div>
+    </div>
+  
+</nav>
+
+<!-- <div class="main"> -->
+  <div class="addvideo">
+    <h1>Built by developers.
+        <br>
+        For developers.
+        <br>
+        With fair terms for all.
+        <br>
+        Let's build incredible things together</h1>
+        <br>
+
+    <button  class="btn btn-outline-primary" style="font-weight: 600;  color: rgb(255, 255, 255); font-size: 18px;">Learn More about UE5</button>
+    <video loop="" preload="metadata" autoplay muted id="videoplay" class="bg-video-html5 html-video" data-contentid="923053264" width="1385" height="779"><source src="./homepage-opener-5a55a50aaa4c.mp4">Your browser does not support HTML5 video.</video>
+</div>
+<!-- </div> -->
+
+
+  <br>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./body-1-news-uolsuccessstories-1920x1080-097165076.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./screenshot00027-1920x1050-801fd3a3dc48.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./box6_image.jpg" class="d-block w-100" alt="...">
+      
+      <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<br>
+<br> 
+
+<div class="heading" style="color: black;">
+    <h1>Create without limits</h1>
+    <h3>With Unreal Engine, you can bring amazing real-time experiences to life using the
+        <br>
+        world’s most advanced real-time 3D creation tool. <br>
+        From first projects to the most demanding challenges, our free and accessible  <br>
+        resources and inspirational community empower everyone to realize their <br> ambitions.
+    </h3>
+</div>
+<div class="container mt-4 " >
+    <div class="row" >
+        <div class="cards col-xs-12 col-sm-6 col-md-4" >
+            <div class=" ">
+                 <hr  style="color: rgb(52, 195, 255); height: 20px;">
+                <div class="card-body" style="background-color: rgb(215, 213, 213); color: black;">
+                    
+                    <h5><a href="" style="color: black; font-size: 32px;">Learn Unreal Engine</a>                 </h5>
+                    <br>
+                    <p class="card-text">With hundreds of hours of free online learning content, an extensive library of webinars,  instructor-led training, we have a way to learn that's right for you.</p>
+                    <button type="button" class="btn btn-outline-primary" style="font-weight: 600; color: black; font-size: 18px;">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <div class="cards col-xs-12 col-sm-6 col-md-4" >
+            <div class=" ">
+                <hr style="color: rgb(52, 195, 255); height: 20px;">
+                <div class="card-body" style="background-color: rgb(215, 213, 213); color: black;">
+            
+                    <h5><a href="" style="color: black; font-size: 32px;">Learn Unreal Engine</a>                 </h5>
+                    <br>
+                    <p class="card-text">With hundreds of hours of free online learning content, an extensive library of webinars,  instructor-led training, we have a way to learn that's  right for you.</p>
+                    <button type="button" class="btn btn-outline-primary" style="font-weight: 600; color: black; font-size: 18px;">Get Started</button>
+                </div>
+            </div>
+        </div>
+         
+         
+        <div class="cards col-xs-12 col-sm-6 col-md-4">
+            <div class=" ">
+                <hr style="color: rgb(52, 195, 255); height: 20px;">
+                <div class="card-body" style="background-color: rgb(215, 213, 213); color: black;">
+                  <h5><a href="" style="color: black; font-size: 32px;">MarketPlace</a>                 </h5>
+                    <br>
+                    <p class="card-text">Explore comprehensive reference documentation, instructional guides, community-based support, and options for dedicated professional support an extensive library of webinars,  instructor-led </p>
+                    <button type="button" class="btn btn-outline-primary" style="font-weight: 600; color: black;  font-size: 18px;"> Get Started</button>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br> 
+<section class="section blog">
+    <div class="container">
+<h2 style="color: black;">The latest from Unreal Engine</h2>
+<h5 style="text-align: right;color: black;">See all News &amp; Events</h5>
+<hr style="color: rgb(0, 0, 0); height: 20px;">
+      <ul class="blog-list">
+        <li>
+          
+            <figure class="card-banner">
+              <a href="#">
+                <img src="./landing-page-feed-01-1920x1080-cef4e1d3076a.jpg" width="740" height="518" loading="lazy"
+                  alt="A good traveler has no fixed plans and is not intent on arriving." class="img-cover">
+              </a>
+            </figure>
+            <div class="card-content" style="color: black;">
+              <h3 class="card-title">
+                <pre>NEWS</pre>
+                <h5><a href="" style="color: black;">Unreal Engine 5.3 is now available!   </a>                 </h5>
+                <hr>
+              <h6> This release brings numerous wide-ranging improvements, together with some exciting new Experimental features, as we continue to expand UE5’s functionality and potential for game developers and creators across industries. Find out what’s new. </h6>
+              <div class="container">
+                <button type="button" class="btn btn-outline-primary" style="font-weight: 600;">Learn More about UE5</button>
+            </div>
+            </h3>
+            </div>
+          
+        </li>
+        <li>
+          
+            <figure class="card-banner">
+              <a href="#">
+                <img src="./uefn-1920x1080-1920x1080-15d844659791.png" width="740" height="518" loading="lazy"
+                  alt="A good traveler has no fixed plans and is not intent on arriving." class="img-cover">
+              </a>
+            </figure>
+            <div class="card-content" style="color: black;">
+            
+                <h3 class="card-title">
+                    <pre>NEWS</pre>
+                    <h5><a href="" style="color: black;">Unreal Editor Fortnite is  Public Beta!
+                    </a>   </h5>
+                    <hr>
+                  <div class="container"  >
+                    <h6> 
+                        Unreal Editor for Fortnite (UEFN) combines the power of Unreal Engine with the scale of Fortnite. Use development tools to build games and experiences that can be  and publish for millions of players to enjoy.  </h6>
+                  <div class="container">
+                    <button type="button" class="btn btn-outline-primary" style="font-weight: 600;">Learn More about UE5</button>
+                </div>
+            </h3>
+            </div>
+         
+        </li>
+        <li>
+          
+            <figure class="card-banner">
+              <a href="#">
+                <img src="./unreal-engine-5-3-feed-1920x1080-e05ac05953f4.png" width="740" height="518" loading="lazy"
+                  alt="A good traveler has no fixed plans and is not intent on arriving." class="img-cover">
+              </a>
+            </figure>
+            <div class="card-content" style="color: black;">
+                <h3 class="card-title">
+                    <pre>EVENT</pre>
+                    <h5><a href="" style="color: black;">Unreal Engine 3.4 is now available! 
+
+                    </a>   </h5>
+                    <hr>
+                  <div class="container">
+                    <h6> 
+                        Join Epic Games at GDC 2023 for the State of Unreal, insightful tech , chance to play the Engine games to build games and experiences that on build games but main control of our nationl the show floor.   </h6>
+                  <div class="container">
+                    <button type="button" class="btn btn-outline-primary" style="font-weight: 600;">Learn More about UE5</button>
+                </div>
+                </h3>
+            </div>
+          
+        </li>
+      </ul>
+    </div>
+  </section>
+</article>
+</main>
+
+<br>
+<div class="containerss "  style="background-image: url('./2015\ Trend\ Preview_\ The\ Pantone\ Colors\ That\ Will\ Define\ The\ Year\ Ahead.jpg'); ">
+<div class="container ">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-12 col-md-8">
+            <div class="anim-on" style="opacity: 1; transform: none;">
+              <br>
+              <br>
+              <br>
+                <h2 class="text-center mb-3">
+                    A thriving community of creators
+                </h2>
+                <p class="text-center mb-4">
+                    Creators and developers around the world hone their real-time skills in remarkable, groundbreaking ways. Check out some of our favorite recent projects from real Unreal Engine users across industries.
+                </p>
+                <div class="text-center mb-4">
+                    <button type="button" class="btn btn-outline-primary" style="font-weight: 600; color: white;">Join the community</button>
+            
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+      </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="./body-1-news-uolsuccessstories-1920x1080-097165076.jpg" class="img-fluid" alt="" >
+                    </div>
+                    <h3 class="text mt-3">Forgotten</h3>
+                    <div class="text-centers " style="display: flex; justify-content: right;" >
+                        <p class="text mb-4">By Aspn</p>
+                        <img src="https://cdn2.unrealengine.com/aspn-taylor180x180-180x180-105763998.jpg?resize=1&amp;w=120"  class="img-fluid" alt="">
+                    </div>
+                </div>
+                      <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="./screenshot00027-1920x1050-801fd3a3dc48.png" class="img-fluid" alt="">
+                    </div>
+                    <h3 class="text mt-3">Forgotten</h3>
+                    <div class="text-centers " style="display: flex; justify-content: right;" >
+                        <p class="text mb-4">By Aspn</p>
+                        <img src="./mugshot-1008x915-f13e6aaf7690.PNG"  class="img-fluid" alt="">
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <img src="./3-scene-showing-the-creation-of-the-last-universal-common-ancestor-luca-1920x1080-afc46b22dd27.png"  class="img-fluid" alt="">
+                        </div>
+                        <h3 class="text mt-3">Forgotten</h3>
+                        <div class="text-centers " style="display: flex; justify-content: right;" >
+                            <p class="text mb-4">By Aspn</p>
+                            <img src="./Man and woman working late.jpg"  class="img-fluid" alt="">
+                        </div>
+                    </div>
+      
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="anim-on" style="opacity: 1; transform: none;">
+                        <a class="ue-link-wrap MuiTypography-colorTextPrimary-5298" href="/en-US/gdc2023" title="">
+                            <div class="with-caption ue-non-caption-wrap">
+                                <div class="image-wrapper ratio-rect">
+                                    <div class="ratio-keeper">
+                                           </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+</div>
+<div class="container-fluid background-container">
+<div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-5" style="padding-top: 0; padding-bottom: 0;">
+        <div class="container-fluid" style="margin-top: 0; margin-bottom: 0;">
+            <div class="row justify-content-center" style="margin-top: 0; margin-bottom: 0;">
+                <div class="col-xs-12 col-lg-10" style="padding-top: 0; padding-bottom: 0;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title" style="font-size: 50px;">Free <br>
+                              download— <br> includes  <br>every feature!</h2>
+                            <p class="card-text">Unreal Engine comes fully loaded and production-ready out of the box, with every feature and full source code access included.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-sm-12 col-md-12 col-lg-7" style="padding-top: 0; padding-bottom: 0;">
+        <div class="container-fluid" style="margin-top: 0; margin-bottom: 0;">
+            <div class="row justify-content-end" style="margin-top: 0; margin-bottom: 0;">
+                <div class="col-xs-12 col-md-auto" style="padding-top: 0; padding-bottom: 0;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Get Unreal Engine</h4>
+                            <h3 class="card-subtitle mb-2">Get started for free!</h3>
+                            <p class="card-text">Unreal Engine is free to use for creating linear content, custom projects, and internal projects. It's also free to get started for game development—a 5% royalty only kicks in when your title earns over $1 million USD.</p>
+                            <a href="/en-US/download" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-auto" style="padding-top: 0; padding-bottom: 0;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Talk To Us</h4>
+                            <h3 class="card-subtitle mb-2">Other license options</h3>
+                            <p class="card-text">Looking for premium support, private training, custom terms, or a direct relationship with Epic Games? Talk to us about an Unreal Enterprise Program license or custom solution.</p>
+                            <a href="/en-US/license" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container " style="background-color: white;">
+<div id="ue-newsletter" style="color: black;" class="container-fluid sc-ijDOKB cjamhU ue-newsletter-section split">
+    <div class="row sc-bHnlcS iEFJsu news-section-bg"></div>
+    <div class="row sc-hzhJZQ fRaUOZ newsletter-grid ue-grid-container">
+        <div class="col-12 col-md-12">
+            <div class="row">
+                <div class="col-12">
+                    <p>Newsletter   </p>
+                </div>
+                <div class="col-12">
+                    <div class="sc-kOHTFB cExutU ue-spacer custom" spacing="3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-12">
+            <h2>Get updates on industry innovations and the latest
+                <br>
+                 free assets for <a href="">your industry</a>
+                <div class="col-12 col-md-12">
+                    <button class="btn btn-primary" >Sign In To Subscribe</button>
+                </div>
+             
+            </h2>
+            <div class="sc-kOHTFB cnxUOQ ue-spacer custom" spacing="4"></div>
+        </div>
+       
+        <div class="col-12 col-md-12 ">
+            <div class="row">
+                
+                    <div style="padding-bottom: 8%;" class="sc-gsFSXq hCnXAt paragraph caption loc-en-US">By submitting your information, you are agreeing to receive news, surveys, and special offers <br>
+                        from Epic Games. <a href=""> Privacy policy</a>
+                      
+                         
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<!--<footer class="container-fluid bg-dark text-white">
+<div class="row">
+    <div class="col-md-6">
+        <div class="row justify-content-center">
+            <a href="https://twitter.com/unrealengine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/UnrealEngine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-facebook"></i></a>
+            <a href="http://www.twitch.tv/unrealengine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-twitch"></i></a>
+            <a href="http://instagram.com/UnrealEngine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.youtube.com/unrealengine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.unrealengine.com/rss" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fas fa-rss"></i></a>
+        </div>
+    </div>
+    <div class="col-md-6 text-end">
+        <button class="btn btn-primary">
+            <i class="fas fa-arrow-up"></i>
+            Back to top
+        </button>
+    </div>
+</div>
+<hr class="bg-white">
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col">
+                <h5 class="text-uppercase">Games</h5>
+                <a href="https://www.fortnite.com/?lang=en-US" class="text-white">Fortnite</a><br>
+                <a href="https://fallguys.com/?lang=en-US" class="text-white">Fall Guys</a><br>
+                <a href="https://www.rocketleague.com/?lang=en-US" class="text-white">Rocket League</a><br>
+                <a href="https://www.epicgames.com/unrealtournament/?lang=en-US" class="text-white">Unreal Tournament</a><br>
+                <a href="https://www.epicgames.com/infinityblade/home/?lang=en-US" class="text-white">Infinity Blade</a><br>
+                <a href="https://store.epicgames.com/p/shadow-complex/?lang=en-US" class="text-white">Shadow Complex</a><br>
+                <a href="https://www.epicgames.com/roborecall/home/?lang=en-US" class="text-white">Robo Recall</a><br>
+            </div>
+            <div class="col">
+                <h5 class="text-uppercase">Marketplaces</h5>
+                <a href="https://store.epicgames.com/?lang=en-US" class="text-white">Epic Games Store</a><br>
+                <a href="https://www.fab.com/en-US" class="text-white">Fab</a><br>
+                <a href="https://sketchfab.com/store" class="text-white">Sketchfab</a><br>
+                <a href="https://www.unrealengine.com/marketplace/store" class="text-white">Unreal Engine Marketplace</a><br>
+                <a href="https://www.artstation.com/" class="text-white">ArtStation</a><br>
+                <a href="https://www.epicgames.com/site/store-refund-policy/?lang=en-US" class="text-white">Store Refund Policy</a><br>
+                <a href="https://store.epicgames.com/eula/?lang=en-US" class="text-white">Store EULA</a><br>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col">
+                <h5 class="text-uppercase">Tools</h5>
+                <a href="https://www.unrealengine.com/?lang=en-US" class="text-white">Unreal Engine</a><br>
+                <a href="https://store.epicgames.com/p/fortnite--uefn/?lang=en-US" class="text-white">UEFN</a><br>
+                <a href="https://www.unrealengine.com/metahuman/?lang=en-US" class="text-white">MetaHuman</a><br>
+                <a href="https://www.twinmotion.com/?lang=en-US" class="text-white">Twinmotion</a><br>
+                <a href="https://quixel.com/megascans/" class="text-white">Megascans</a><br>
+                <a href="https://www.unrealengine.com/realityscan/?lang=en-US" class="text-white">RealityScan</a><br>
+                <a href="http://www.radgametools.com/" class="text-white">Rad Game Tools</a><br>
+            </div>
+            <div class="col">
+                <h5 class="text-uppercase">Company</h5>
+                <a href="https://www.epicgames.com/site/about/?lang=en-US" class="text-white">About</a><br>
+                <a href="https://www.epicgames.com/site/news/?lang=en-US" class="text-white">Newsroom</a><br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="LegalLinksAndLogosmolecule__Styled-sc-1dt17xk-0 hRHyPi en-US">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="legal-links">
+                    <a id="footerTerms" href="https://www.epicgames.com/en-US/tos?lang=en-US" target="_self" rel="" class="footer-link">Terms of service</a>
+                    <a id="footerPrivacy" href="https://www.epicgames.com/en-US/privacypolicy?lang=en-US" target="_self" rel="" class="footer-link">Privacy policy</a>
+                    <a href="https://safety.epicgames.com/en-US" target="_self" rel="" class="footer-link">Safety &amp; security</a>
+                </div>
+            </div>
+            <div class="col-md-8 text-right">
+                <div class="property-logos">
+                    <div class="logo eg">
+                        <a title="Epic Games" href="https://www.epicgames.com/en-US/?lang=en-US">
+                            <div class="eg-shield-wrap white hover">
+                                <div class="eg-shield white"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="logo ue">
+                        <a title="Unreal Engine" href="https://www.unrealengine.com/en-US/?lang=en-US">
+                            <div class="ue-logo-wrap white hover">
+                                <div class="ue-logo white"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>-->
+
+
+
+
+
+<footer class="footer"  style="background-image:url(./2015\ Trend\ Preview_\ The\ Pantone\ Colors\ That\ Will\ Define\ The\ Year\ Ahead.jpg);">
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-12">
+      <img class="logo__img " fetchpriority="high" height="32" alt="Unreal Engine Logo" src="https://media.graphassets.com/qiFQiyH6TiuMdOIA5yZJ" width="233">
+       
+        <div class="row justify-content-center">
+            <a href="https://twitter.com/unrealengine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/UnrealEngine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-facebook"></i></a>
+            <a href="http://www.twitch.tv/unrealengine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-twitch"></i></a>
+            <a href="http://instagram.com/UnrealEngine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.youtube.com/unrealengine" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.unrealengine.com/rss" target="_blank" rel="noopener noreferrer" class="col-1"><i class="fas fa-rss"></i></a>
+            <br>
+            <br>
+            
+          </div>
+    </div>
+  
+  <div class="footer-top">
+    <ul class="footer-list">
+       <li><a href="https://www.fortnite.com/?lang=en-US" class="footer-link">Fortnite</a><br> </li>
+       <li><a href="https://fallguys.com/?lang=en-US" class="footer-link">Fall Guys</a><br> </li>
+       <li><a href="https://www.rocketleague.com/?lang=en-US" class="footer-link">Rocket League</a><br> </li>
+       <li><a href="https://www.epicgames.com/unrealtournament/?lang=en-US" class="footer-link">Unreal Tournament</a><br> </li>
+       <li><a href="https://www.epicgames.com/infinityblade/home/?lang=en-US" class="footer-link">Infinity Blade</a><br> </li>
+       <li><a href="https://store.epicgames.com/p/shadow-complex/?lang=en-US" class="footer-link">Shadow Complex</a><br> </li>
+       <li><a href="https://www.epicgames.com/roborecall/home/?lang=en-US" class="footer-link">Robo Recall</a><br> </li>
+    </ul>
+
+    <ul class="footer-list">
+
+      <li> <a href="https://store.epicgames.com/?lang=en-US" class="footer-list-title">Epic Games Store</a><br></li>
+         <li><a href="https://www.fab.com/en-US" class="footer-list-title">Fab</a><br></li>
+         <li><a href="https://sketchfab.com/store" class="footer-list-title">Sketchfab</a><br></li>
+         <li><a href="https://www.unrealengine.com/marketplace/store" class="footer-list-title">Unreal Engine Marketplace</a><br></li>
+         <li><a href="https://www.artstation.com/" class="footer-list-title">ArtStation</a><br></li>
+         <li><a href="https://www.epicgames.com/site/store-refund-policy/?lang=en-US" class="footer-list-title">Store Refund Policy</a><br></li>
+         <li><a href="https://store.epicgames.com/eula/?lang=en-US" class="footer-list-title">Store EULA</a><br></li>
+    </ul>
+
+    <ul class="footer-list">
+
+    
+
+      <li><a href="https://www.unrealengine.com/?lang=en-US" class="footer-list-title">Unreal Engine</a><br></li>
+      <li><a href="https://store.epicgames.com/p/fortnite--uefn/?lang=en-US" class="footer-list-title">UEFN</a><br></li>
+      <li><a href="https://www.unrealengine.com/metahuman/?lang=en-US" class="footer-list-title">MetaHuman</a><br></li>
+      <li><a href="https://www.twinmotion.com/?lang=en-US" class="footer-list-title">Twinmotion</a><br></li>
+      <li><a href="https://quixel.com/megascans/" class="footer-list-title">Megascans</a><br></li>
+      <li><a href="https://www.unrealengine.com/realityscan/?lang=en-US" class="footer-list-title">RealityScan</a><br></li>
+      <li><a href="http://www.radgametools.com/" class="footer-list-title">Rad Game Tools</a><br></li>
+ 
+
+    </ul>
+
+    <div class="footer-list">
+      <h5 class="text-uppercase">Company</h5>
+      <a href="https://www.epicgames.com/site/about/?lang=en-US" class="text-white">About</a><br>
+      <a href="https://www.epicgames.com/site/news/?lang=en-US" class="text-white">Newsroom</a><br>
+      <a id="footerTerms" href="https://www.epicgames.com/en-US/tos?lang=en-US" target="_self" rel="" class="footer-link">Terms of service</a>
+      <a id="footerPrivacy" href="https://www.epicgames.com/en-US/privacypolicy?lang=en-US" target="_self" rel="" class="footer-link">Privacy policy</a>
+      <a href="https://safety.epicgames.com/en-US" target="_self" rel="" class="footer-link">Safety security</a>
+ <br>
+      <div class="footer-bottom">
+
+  
+        <p class="copyright">
+          &copy; 2022 <a href="#" class="copyright-link">codeForEveryOne</a>. All Rights Reserved
+        </p>
+
+    </div>
+
+  </div>
+  
+
+  </div>
+
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-7Z8qOZwM4F+az5z3LJ4cJ3qPcIeBWuT2xPz4JU9H6h6kQDmAD0d6lH0xW8Q3Xfbb" crossorigin="anonymous"></script>
+<!-- jQuery (required for Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Bootstrap JS (optional if you need Bootstrap components) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-7Z8qOZwM4F+az5z3LJ4cJ3qPcIeBWuT2xPz4JU9H6h6kQDmAD0d6lH0xW8Q3Xfbb" crossorigin="anonymous"></script>
+<!-- jQuery (required for Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Bootstrap JS (optional if you need Bootstrap components) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+ 
+
+</body>
+</html>
+
